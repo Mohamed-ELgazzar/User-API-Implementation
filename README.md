@@ -64,7 +64,7 @@ The project uses the following technologies:
 
 * User Registration:
 
-** Endpoint: POST /user
+* Endpoint: POST /user
 
   Request Body:
   {
@@ -80,7 +80,7 @@ The project uses the following technologies:
       "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJNb2hhbWVkQVRlZi5lbGdhenphckBleGFtcGxlLmNvbSIsImlhdCI6MTcwMDQzODAwNSwiZXhwIjoxNzAwNDc0MDA1fQ.TovUzwtIO2CkPmPsO2skHK7g-nzgV4y9GzLGL4pWpp4"
   }.
 
-** User Retrieval:
+* User Retrieval:
 
   Endpoint: GET /user/{id}
   
