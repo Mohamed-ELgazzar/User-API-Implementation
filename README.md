@@ -66,35 +66,35 @@ The project uses the following technologies:
 
 ** Endpoint: POST /user
 
-Request Body:
-{
-    "firstName": "MohamedAtef",
-    "lastName": "elgazzar",
-    "email": "MohamedATef.elgazzar@example.com",
-    "marketingConsent": false
-}
+  Request Body:
+  {
+      "firstName": "MohamedAtef",
+      "lastName": "elgazzar",
+      "email": "MohamedATef.elgazzar@example.com",
+      "marketingConsent": false
+  }
 
-Response:
-{
-    "id": "0e1a93c3687572c7ccd4e1bae2433998568f8474",
-    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJNb2hhbWVkQVRlZi5lbGdhenphckBleGFtcGxlLmNvbSIsImlhdCI6MTcwMDQzODAwNSwiZXhwIjoxNzAwNDc0MDA1fQ.TovUzwtIO2CkPmPsO2skHK7g-nzgV4y9GzLGL4pWpp4"
-}.
+  Response:
+  {
+      "id": "0e1a93c3687572c7ccd4e1bae2433998568f8474",
+      "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJNb2hhbWVkQVRlZi5lbGdhenphckBleGFtcGxlLmNvbSIsImlhdCI6MTcwMDQzODAwNSwiZXhwIjoxNzAwNDc0MDA1fQ.TovUzwtIO2CkPmPsO2skHK7g-nzgV4y9GzLGL4pWpp4"
+  }.
 
 ** User Retrieval:
 
-Endpoint: GET /user/{id}
-
-Request Header:
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJNb2hhbWVkQVRlZi5lbGdhenphckBleGFtcGxlLmNvbSIsImlhdCI6MTcwMDQzODAwNSwiZXhwIjoxNzAwNDc0MDA1fQ.TovUzwtIO2CkPmPsO2skHK7g-nzgV4y9GzLGL4pWpp4
-
-Response:
-{
-    "id": "0e1a93c3687572c7ccd4e1bae2433998568f8474",
-    "firstName": "MohamedAtef",
-    "lastName": "elgazzar",
-    "email": null,
-    "marketingConsent": false
-}
+  Endpoint: GET /user/{id}
+  
+  Request Header:
+  Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJNb2hhbWVkQVRlZi5lbGdhenphckBleGFtcGxlLmNvbSIsImlhdCI6MTcwMDQzODAwNSwiZXhwIjoxNzAwNDc0MDA1fQ.TovUzwtIO2CkPmPsO2skHK7g-nzgV4y9GzLGL4pWpp4
+  
+  Response:
+  {
+      "id": "0e1a93c3687572c7ccd4e1bae2433998568f8474",
+      "firstName": "MohamedAtef",
+      "lastName": "elgazzar",
+      "email": null,
+      "marketingConsent": false
+  }
 
 
 
