@@ -108,6 +108,7 @@ You can test the API endpoints using Postman. Import the following Postman colle
 
 *Get User: with valid id and valid Token, but email is appear "marketingConsent": true
 ![image_2023-11-20_031314609](https://github.com/Mohamed-ELgazzar/User-API-Implementation/assets/122599973/89b02e61-9391-452a-9e94-fb73b23806cd)
+
 ![GetUserAuthTokenMarketTrue](https://github.com/Mohamed-ELgazzar/User-API-Implementation/assets/122599973/20af7800-8d9d-4a2f-b735-1f91cce56029)
 
 *Get User: with valid id and valid Token, but email is null because "marketingConsent": false
