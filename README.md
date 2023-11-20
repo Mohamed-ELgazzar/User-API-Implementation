@@ -116,7 +116,7 @@ You can test the API endpoints using Postman. Import the following Postman colle
 
 ![GetUserAuthTokenMarketFalse](https://github.com/Mohamed-ELgazzar/User-API-Implementation/assets/122599973/91f99693-981a-45a1-a7f7-aecb231a1467)
 
-* Error when get User beacause no authorization and token applied.
+*Error when get User beacause no authorization and token applied.
 ![GetUserNoAuth](https://github.com/Mohamed-ELgazzar/User-API-Implementation/assets/122599973/a49c07dd-bc8a-42f5-8a0e-79f72ce3f71b)
 
 *Error when get User beacause non valid Token.
