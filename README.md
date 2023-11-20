@@ -92,7 +92,6 @@ The project uses the following technologies:
       "id": "0e1a93c3687572c7ccd4e1bae2433998568f8474",
       "firstName": "MohamedAtef",
       "lastName": "elgazzar",
-      "email": null,
       "marketingConsent": false
   }
 
