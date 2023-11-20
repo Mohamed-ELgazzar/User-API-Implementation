@@ -100,12 +100,6 @@ Response:
 ## Postman Collection
 You can test the API endpoints using Postman. Import the following Postman collection to access the API endpoints:
 
-Program Employee Filter Criteria Postman Collection
-![Screenshot from 2023-07-23 20-30-07](https://github.com/Mohamed-ELgazzar/Program-Employee-Filter-Criteria/assets/122599973/c55dd86f-9c4a-4a01-9dbb-2c420c6b1c66)
-![Screenshot from 2023-07-23 20-29-36](https://github.com/Mohamed-ELgazzar/Program-Employee-Filter-Criteria/assets/122599973/5bedc80d-7881-4dd4-9e8e-e339211b3e23)
-![Screenshot from 2023-07-23 20-30-37](https://github.com/Mohamed-ELgazzar/Program-Employee-Filter-Criteria/assets/122599973/b68ae93c-7e46-4ce5-ac6f-0693707d02ae)
-
-## Output Website
 * Run the application using Maven:
      mvn spring-boot:run
 * Post User: registeration
