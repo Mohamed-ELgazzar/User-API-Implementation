@@ -106,20 +106,20 @@ You can test the API endpoints using Postman. Import the following Postman colle
 * Post User: registeration
 ![postUser](https://github.com/Mohamed-ELgazzar/User-API-Implementation/assets/122599973/695f22ad-20ae-4c6f-b67c-2b0acdf751bb)
 
-*Get User: with valid id and valid Token, but email is appear "marketingConsent": true
+* Get User: with valid id and valid Token, but email is appear "marketingConsent": true
 ![image_2023-11-20_031314609](https://github.com/Mohamed-ELgazzar/User-API-Implementation/assets/122599973/89b02e61-9391-452a-9e94-fb73b23806cd)
 
 ![GetUserAuthTokenMarketTrue](https://github.com/Mohamed-ELgazzar/User-API-Implementation/assets/122599973/20af7800-8d9d-4a2f-b735-1f91cce56029)
 
-*Get User: with valid id and valid Token, but email is null because "marketingConsent": false
+* Get User: with valid id and valid Token, but email is null because "marketingConsent": false
 ![image](https://github.com/Mohamed-ELgazzar/User-API-Implementation/assets/122599973/647b5962-cb7e-4821-84b5-7322660cac82)
 
 ![GetUserAuthTokenMarketFalse](https://github.com/Mohamed-ELgazzar/User-API-Implementation/assets/122599973/91f99693-981a-45a1-a7f7-aecb231a1467)
 
-*Error when get User beacause no authorization and token applied.
+* Error when get User beacause no authorization and token applied.
 ![GetUserNoAuth](https://github.com/Mohamed-ELgazzar/User-API-Implementation/assets/122599973/a49c07dd-bc8a-42f5-8a0e-79f72ce3f71b)
 
-*Error when get User beacause non valid Token.
+* Error when get User beacause non valid Token.
 ![GetUserAuthTokenNoValid](https://github.com/Mohamed-ELgazzar/User-API-Implementation/assets/122599973/bcba528c-dee3-411c-a3b7-b44e0dfb42a6)
 
 
