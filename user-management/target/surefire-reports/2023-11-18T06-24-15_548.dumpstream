@@ -1,0 +1,5 @@
+# Created at 2023-11-18T06:24:15.798
+Boot Manifest-JAR contains absolute paths in classpath 'D:\saqaya\user-management\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+
